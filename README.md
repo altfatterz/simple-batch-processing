@@ -1,6 +1,6 @@
 #### CHUNK_SIZE=10 and CONCURRENCY_LIMIT = 1
 
-Each chunk processed in sequence and each chunk is processed (reader/processor/writer) with a single thread.
+Each chunk processed in sequence and each `chunk` is processed (`reader`/`processor`/`writer`) with a single thread.
 
 ```bash
 ...
@@ -29,13 +29,13 @@ Each chunk processed in sequence and each chunk is processed (reader/processor/w
 ...
 ``` 
 
-The job took:100 seconds
+The `job` took:100 seconds
 
 
 #### CHUNK_SIZE=10 and CONCURRENCY_LIMIT = 5
 
-Each chunk processed in sequence and each chunk is processed (reader/processor/writer) with 5 threads.
+Each `chunk` processed in sequence and each `chunk` is processed (reader/processor/writer) with 5 threads.
 
-The job took:30 seconds
+The `job` took:30 seconds
 
 
